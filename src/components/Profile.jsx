@@ -5,6 +5,7 @@ import usersData from '../pages/users.json'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faPenToSquare } from "@fortawesome/free-regular-svg-icons";
 import "./profile.css";
+import profile_img from '../assets/images/profile.png'
 const ProfilePage = () => {
     const [userInfo, setUserInfo] = useState(null);
     const [formData, setFormData] = useState({
@@ -70,7 +71,7 @@ const ProfilePage = () => {
                 <div className="user-info">
                     <div className='user-info-container'>
                         <div className="user-info-img">
-                            <img src={userInfo.img} />
+                            <img src={profile_img} />
                         </div>
                         <div className="user-info-details">
                             <h2>{userInfo.name} </h2>
