@@ -1,0 +1,78 @@
+.serviceCard-container {
+    max-width: 380px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.serviceCard-container .card {
+    height: 465px;
+    width: 100%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.serviceCard-container .card .card-img img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.serviceCard-container .card .card-content {
+    padding: 8px;
+    position: relative;
+    height: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.serviceCard-container .card .card-content h2 {
+    font-size: 26px;
+    color: #6D7A89;
+    margin: 8px 8px 13px 8px;
+    padding: 0 10px;
+}
+
+
+.serviceCard-container .card .card-content p {
+    color: var(--font-color);
+    /* width: 260px; */
+    padding: 0 10px;
+    margin: 8px ;
+}
+
+.serviceCard-container .card .card-content .buttons {
+    position: absolute;
+    bottom: -60px;
+    left: 26px;
+    text-align: center;
+}
+
+.serviceCard-container .card .card-content .buttons button {
+    padding: 10px 15px !important;
+}
+
+@media (max-width: 992px) {
+    .serviceCard-container .card {
+        height: 445px;
+        width: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 12px !important;
+    }
+}

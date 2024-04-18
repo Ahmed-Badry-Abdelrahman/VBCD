@@ -1,0 +1,26 @@
+[
+    {
+        "iD": "1",
+        "name": "John Doe",
+        "specialty": "dummy text of the printing and typesetting industry",
+        "image": "/src/assets/images/D_1.png"
+    },
+    {
+        "iD": "2",
+        "name": "John Doe",
+        "specialty": "dummy text of the printing and typesetting industry",
+        "image": "/src/assets/images/D_2.png"
+    },
+    {
+        "iD": "3",
+        "name": "John Doe",
+        "specialty": "dummy text of the printing and typesetting industry",
+        "image":"/src/assets/images/D_3.png"
+    },
+    {
+        "iD": "4",
+        "name": "John Doe",
+        "specialty": "dummy text of the printing and typesetting industry",
+        "image": "/src/assets/images/D_3.png"
+    }
+]

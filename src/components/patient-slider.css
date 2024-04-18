@@ -1,0 +1,108 @@
+/* patient-slider.css */
+
+.patient-stories-slider-container {
+    /* Adjust the width as needed */
+    width: 96%;
+    padding: 20px;
+    margin: auto;
+}
+.slick-slider ul {
+    position: absolute;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    z-index: 999
+}
+
+.slick-slider .slick-track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.slick-slider div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.patient-stories-slider-container h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.patient-stories-slider-container h2::before {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #1abc9c;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.story-card {
+    max-width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 20px auto;
+}
+.story-card .c-img {
+    height: 55% !important;
+}
+.story-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.story-details {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    height: 45% !important;
+}
+
+.story-details h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.story-details p {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.story-details a {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(-180deg, var(--primary-color) 0%, #7ac3ff  100%);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -20px;
+    display: block;
+    width: 90%;
+    text-align: center;
+    z-index: 999
+}

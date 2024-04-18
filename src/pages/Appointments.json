@@ -1,0 +1,32 @@
+{
+    "appointments": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "date": "2024-03-10",
+            "status": "accepted"
+        },
+        {
+            "id": 2,
+            "name": "Alice Smith",
+            "date": "2024-03-12",
+            "status": "hanging"
+        },        {
+            "id": 3,
+            "name": "Alice Smith",
+            "date": "2024-03-12",
+            "status": "rejected"
+        },
+        {
+            "id": 4,
+            "name": "Bob Johnson",
+            "date": "2024-03-15",
+            "status": "accepted"
+        },        {
+            "id": 5,
+            "name": "Bob Johnson",
+            "date": "2024-03-15",
+            "status": "rejected"
+        }
+    ]
+}

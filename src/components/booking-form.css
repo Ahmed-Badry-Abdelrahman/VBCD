@@ -1,0 +1,165 @@
+.booking-form-container .booking-form-content {
+    padding: 0 30px;
+}
+
+.booking-form-container .booking-form-content .title h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--font-color);
+    position: relative;
+}
+.booking-form-container .booking-form-content .title h1::before {
+    content: "";
+    width: 10%;
+    height: 3px;
+    background: linear-gradient(to right, #ffa84d, #ff5c5c);
+    position: absolute;
+    bottom: 0;
+}
+
+.booking-form-container .booking-form-content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8%;
+}
+
+.booking-form-container .booking-form-content form input {
+    height: 80px;
+    border: none;
+    font-size: 22px;
+    padding-left: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: rgba(0, 0, 0, 0.545);
+}
+
+.booking-form-container .booking-form-content form input::placeholder {
+    color: rgba(0, 0, 0, 0.293);
+}
+
+.booking-form-container .booking-form-content form input:focus {
+    outline: none;
+}
+
+.booking-form-container .booking-form-content form .f-row-one {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.booking-form-container .booking-form-content form .f-row-one input {
+    width: 50%;
+}
+
+.booking-form-container .booking-form-content form .f-row-tow {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.booking-form-container .booking-form-content form .f-row-tow input {
+    width: calc(100% / 3);
+}
+
+.booking-form-container .booking-form-content form .f-row-tow button {
+    flex-grow: 1;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(-180deg, var(--primary-color) 0%, #7ac3ff  100%);
+    box-shadow: inset 0 -2px 0 rgba(255, 124, 122, 0.1), inset 0 0 0 1px rgba(255, 124, 122, 0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.booking-form-container .booking-form-content p.error-message {
+    width: 85%;
+    margin: 30px auto;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: rgba(241, 43, 43, 0.256);
+    color: red;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.booking-form-container .booking-form-content p.success-message {
+    width: 85%;
+    margin: 30px auto;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: rgba(0, 128, 0, 0.256);
+    color: green;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media (max-width: 992px) {
+    .booking-form-container .booking-form-content form {
+        padding: 6%;
+    }
+    .booking-form-container .booking-form-content form input {
+        height: 70px;
+    }
+    
+}
+
+@media (max-width: 799px) {
+    .booking-form-container .booking-form-content form .f-row-one {
+        margin-bottom: 30px;
+    }
+    .booking-form-container .booking-form-content form .f-row-tow {
+        flex-direction: column;
+    }
+    .booking-form-container .booking-form-content form .f-row-tow input {
+        height: 70px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .booking-form-container .booking-form-content form .f-row-one  {
+        flex-direction: column;
+    }
+    .booking-form-container .booking-form-content form .f-row-one input {
+        width: 100%;
+        flex-direction: column;
+    }
+    .booking-form-container .booking-form-content .title h1 {
+        margin-bottom: 20px;
+    }
+    .doctor-info-container .doctor-info-content .right-side {
+        padding: 0;
+    }
+    .booking-form-container .booking-form-content p.error-message,
+    .booking-form-container .booking-form-content p.success-message {
+        font-size: 20px;
+    }
+
+    .booking-form-container .booking-form-content form .f-row-tow button {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+}

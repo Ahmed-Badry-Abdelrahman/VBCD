@@ -1,0 +1,156 @@
+
+.search-container .search-content .search-input-container {
+    display: flex;
+    justify-content: center;
+
+}
+.search-container .search-content .search-input-container .search {
+    position: relative;
+    width: 80% ; 
+    text-align: center;
+}
+.search-container .search-content .search-input-container .search input {
+    width: 100%;
+    height: 70px;
+    border-radius: 12px ;
+    -webkit-border-radius: 12px ;
+    -moz-border-radius: 12px ;
+    -ms-border-radius: 12px ;
+    -o-border-radius: 12px ;
+    font-size: 20px;
+    color: #333333;
+    padding-left: 10px;
+    border: none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.search-container .search-content .search-input-container .search input::placeholder {
+    color: #33333358;
+}
+.search-container .search-content .search-input-container .search input:focus {
+    outline: none;
+}
+
+.search-container .search-content .search-input-container .search button {
+    position: absolute;
+    right: 0;
+    height: 70px;
+    width: 150px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-image: linear-gradient(-180deg, rgba(9,49,57,1) 0%, rgb(22, 117, 136)  100%);
+    color: #fff;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.search-container .search-content .rustle-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.search-container .search-content .rustle-container .left-side {
+    width: 40%;
+}
+
+.search-container .search-content .rustle-container .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+}
+.search-container .search-content .rustle-container .left-side::before {
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.078);
+    height: 300px;
+    position: absolute;
+    right: 0px;
+}
+.search-container .search-content .rustle-container .left-side input {
+    width: 80%;
+    height: 60px;
+    border: none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-size: 17px;
+    color: #676767;
+    padding-left: 15px;
+}
+.search-container .search-content .rustle-container .left-side input::placeholder {
+    font-size: 15px;
+}
+.search-container .search-content .rustle-container .left-side input:focus {
+    outline: none;
+}
+
+.search-container .search-content .rustle-container .right-side {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container .search-content .rustle-container .right-side .error-message,
+.search-container .search-content .rustle-container .right-side .no-results-message {
+    font-size: 30px;
+    color: var(--font-color);
+    padding: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1300px) {
+    .search-container .search-content .rustle-container .right-side {
+        width: 70%;
+    }
+    
+    .search-container .search-content .rustle-container .left-side {
+        width: 30%;
+    }
+    .search-container .search-content .rustle-container .left-side input {
+        width: 90%;
+    }
+    .search-container .search-content .rustle-container .left-side input::placeholder {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .search-container .search-content .rustle-container {
+        justify-content: center;
+    }
+    .search-container .search-content .rustle-container .left-side {
+        display: none;
+    }
+    .search-container .search-content .rustle-container .right-side {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 12px !important;
+    }
+}

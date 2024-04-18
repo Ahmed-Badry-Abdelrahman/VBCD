@@ -1,0 +1,173 @@
+.availabilityForm-content {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.availabilityForm-content h2 {
+    font-size: 30px;
+    margin-bottom: 45px;
+    color: var(--font-color);
+    font-weight: 500;
+    position: relative;
+}
+
+.availabilityForm-content h2::before {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #1abc9c;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.availabilityForm-content p.error-massage {
+    padding: 15px;
+    background-color: rgba(255, 42, 42, 0.374);
+    width: 76%;
+    border: 2px solid red;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.availabilityForm-content p.changes-left {
+    color: var(--font-color);
+    align-self: flex-end;
+    margin-right: 8%;
+    font-size: 12px;
+}
+.availabilityForm-content p.help {
+    color: var(--font-color);
+    align-self: flex-start;
+    margin-left: 16.5%;
+    font-size: 12px;
+}
+
+
+.availabilityForm-content form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+    padding: 20px;
+}
+    
+
+.availabilityForm-content form div.dayField {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 33%;
+    justify-content: start;
+}
+
+.availabilityForm-content form div.timeField {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+}
+.availabilityForm-content form div label {
+    font-size: 20px;
+    color: var(--font-color);
+    padding-right: 15px;
+}
+
+.availabilityForm-content form div:first-of-type label {
+    align-self: flex-start;
+}
+
+.availabilityForm-content form div.timeField label {
+    align-self: center;
+}
+
+.availabilityForm-content form div select[multiple] {
+    overflow: hidden;
+    height: auto;
+    border: 1px solid #ccc; /* Add border for dropdown */
+    background-color: #fff; /* Add background color */
+    height: 200px;
+}
+
+.availabilityForm-content form div select[multiple] option {
+    padding: 5px;
+    color: var(--font-color);
+}
+
+/* CSS for styling selected options */
+.availabilityForm-content form div select[multiple] option:checked {
+    background-color: #007bff; /* Change background color of selected options */
+    color: #fff; /* Change text color of selected options */
+}
+
+
+.availabilityForm-content form div input,
+.availabilityForm-content form div select {
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    width: 70%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+
+
+.availabilityForm-content form button[type=submit] {
+    background-image: linear-gradient(-90deg, #ff3cac  0%, #fecd3e   100%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    flex-grow: 1;
+    padding: 15px 20px;
+    border-radius: 8px;
+    -webkit-border-radius:  8px;
+    -moz-border-radius:  8px;
+    -ms-border-radius:    8px;
+    -o-border-radius:          8px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+@media (max-width: 1300px) {
+    .availabilityForm-content form {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .availabilityForm-content form div.sub-btn,
+    .availabilityForm-content form div.timeField,
+    .availabilityForm-content form div.dayField {
+        width: 100%;
+    }
+    .availabilityForm-content form div.sub-btn p {
+        margin-bottom: 10px;
+    }
+
+    .availabilityForm-content form div input {
+        width: 100%;
+    }
+}

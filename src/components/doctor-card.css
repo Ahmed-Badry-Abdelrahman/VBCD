@@ -1,0 +1,87 @@
+.doctor-card-container {
+    background-color: #F7FCFF;
+    padding: 20px 0;
+}
+
+.doctor-card-container .content {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.doctor-card-container .content .title {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 70px;
+    font-size: 45px;
+    color: var(--font-color);
+    font-weight: 400;
+    position: relative;
+}
+.doctor-card-container .content .title::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.175);
+    width: 200px;   
+    height: 3px;  
+}
+.doctor-card-container .content .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 900px) {
+    .doctor-card-container .content .card-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.doctor-card-container .content .card-container .doctor-card {
+    text-align: center;
+    max-width:  255px;
+    position: relative;
+}
+@media screen and (max-width: 900px) {
+    .doctor-card-container .content .card-container .doctor-card {
+        text-align: center;
+        max-width:  255px;
+        position: relative;
+        margin-bottom: 90px;
+    }
+}
+.doctor-card-container .content .card-container .doctor-card::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    background-color: #b4f1f595;
+    width: 100px;   
+    height: 5px;  
+} 
+
+
+.doctor-card-container .doctor-card img {
+    width: 250px;
+    height: 241px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.doctor-card-container .doctor-card h2 {
+    color: var(--font-color);
+    font-size: 28px;
+    margin: 20px 0
+}
+
+.doctor-card-container .doctor-card p {
+    color: var(--font-color);
+}

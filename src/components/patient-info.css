@@ -1,0 +1,176 @@
+.patient-info-container .patient-info-content {
+    padding: 0 30px;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patient-info-container .patient-info-content .up-side {
+    text-align: center;
+}
+
+.patient-info-container .patient-info-content .up-side h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--font-color);
+    position: relative;
+}
+
+.patient-info-container .patient-info-content .up-side h1::before {
+    content: '';
+    border-bottom: 3px solid rgba(65, 65, 65, 0.207);
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, 20%);
+    -webkit-transform: translate(-50%, 20%);
+    -moz-transform: translate(-50%, 20%);
+    -ms-transform: translate(-50%, 20%);
+    -o-transform: translate(-50%, 20%);
+}
+
+.patient-info-container .patient-info-content .up-side p {
+    font-size: 20px;
+    color: var(--font-color);
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.patient-info-container .patient-info-content .down-side {
+    padding: 30px;
+    width: 70%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.patient-info-container .patient-info-content .down-side .info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.patient-info-container .patient-info-content .down-side .info-card .title h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.patient-info-container .patient-info-content .down-side .info-card .title h1 .info-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.patient-info-container .patient-info-content .down-side .info-card .details p {
+    font-size: 20px;
+    color: var(--font-color);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.patient-info-container .patient-info-content .down-side .info-card .link {
+    font-size: 20px;
+    color: var(--font-color);
+    max-width: 380px;   
+    align-self:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- animation ------------------------------*/
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+}
+
+@property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+}
+
+@property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+}
+
+:root {
+    --d: 2500ms;
+    --angle: 90deg;
+    --gradX: 100%;
+    --gradY: 50%;
+    --c1: rgba(91, 181, 250, 0.788);
+    --c2: rgba(168, 239, 255, 0.1);
+}
+
+/* .wrapper {
+    min-width: min(40rem, 100%);
+} */
+
+.box {
+    font-size: 3vw;
+    border: 0.20rem solid;
+    padding: 1vw;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.box:nth-child(2) {
+    border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+    animation: borderRadial var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+    100% {
+        --angle: 420deg;
+    }
+}
+
+@keyframes borderRadial {
+    20% {
+        --gradX: 100%;
+        --gradY: 50%;
+    }
+
+    40% {
+        --gradX: 100%;
+        --gradY: 100%;
+    }
+
+    60% {
+        --gradX: 50%;
+        --gradY: 100%;
+    }
+
+    80% {
+        --gradX: 0%;
+        --gradY: 50%;
+    }
+
+    100% {
+        --gradX: 50%;
+        --gradY: 0%;
+    }
+}

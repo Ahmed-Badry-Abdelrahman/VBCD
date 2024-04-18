@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.story-sec .sec-head-container .sec-title {
+    color: #6e6e6e;
+    font-size: 2.5rem;
+}
+
+.story-sec .sec-head-container .sec-desc {
+    max-width: 50%;
+    color: #a7a7a7;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 992px) {
+    .story-sec .sec-head-container .sec-desc {
+        max-width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .story-sec .sec-head-container .sec-desc {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    .story-sec .sec-head-container .sec-desc {
+        max-width: 100%;
+    }
+}

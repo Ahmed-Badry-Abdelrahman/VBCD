@@ -1,0 +1,130 @@
+.doctor-info-container {
+    margin-top: 60px;
+}
+.doctor-info-container .doctor-info-content {
+    display: flex;
+    gap: 70px;
+    padding: 0 30px;
+}
+
+.doctor-info-container .doctor-info-content .left-side .card {
+    box-shadow: #EDF7FC -17px -17px;
+}
+.doctor-info-container .doctor-info-content .left-side .card .shadow {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.doctor-info-container .doctor-info-content .left-side .card .shadow img {
+    width: 426px;
+    height: 411px;
+    /* border-top-right-radius: 7px;
+    border-top-left-radius: 7px; */
+}
+
+.doctor-info-container .doctor-info-content .left-side .card .shadow .doctor-inf {
+    padding: 10px 20px;
+}
+
+.doctor-info-container .doctor-info-content .left-side .card h1 {
+    color: var(--font-color);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.doctor-info-container .doctor-info-content .left-side .card p {
+    color: var(--font-color);
+    margin-bottom: 8px;
+}
+
+.doctor-info-container .doctor-info-content .right-side {
+    padding: 30px;
+}
+
+.doctor-info-container .doctor-info-content .right-side .biography {
+    margin-bottom: 30px;
+}
+
+.doctor-info-container .doctor-info-content .right-side .biography h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 20px;
+    position: relative;
+}
+.doctor-info-container .doctor-info-content .right-side .biography h2::after {
+    content: "";
+    width: 10%;
+    height: 3px;
+    background: linear-gradient(to right, #ffa84d, #ff5c5c);
+    position: absolute;
+    bottom: 0;
+}
+.doctor-info-container .doctor-info-content .right-side .biography p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+    text-align: justify;
+}
+
+.doctor-info-container .doctor-info-content .right-side .available-appointment {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    color: var(--font-color);
+    margin-bottom: 60px;
+    padding: 0 20px;
+}
+.doctor-info-container .doctor-info-content .right-side .available-appointment .day p {
+    margin-bottom: 5px;
+}
+.doctor-info-container .doctor-info-content .right-side button {
+    margin: 0 20px;
+}
+
+@media (max-width: 1130px) {
+    .doctor-info-container .doctor-info-content {
+        gap: 25px;
+    }
+    .doctor-info-container .doctor-info-content .left-side .card .shadow img {
+        width: 356px;
+        height: 361px;
+    }
+    .doctor-info-container .doctor-info-content .right-side .biography h2 {
+        font-size: 35px;
+    }
+    .doctor-info-container .doctor-info-content .right-side .biography p {
+        font-size: 17.5px;
+    }
+    
+}
+
+@media (max-width: 999px) {
+    .doctor-info-container .doctor-info-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .doctor-info-container .doctor-info-content .left-side .card .shadow img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .doctor-info-container .doctor-info-content .right-side .available-appointment {
+        flex-wrap: wrap;
+    }
+    .doctor-info-container .doctor-info-content .right-side {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 12px !important;
+    }
+}

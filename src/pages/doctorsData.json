@@ -1,0 +1,29 @@
+[
+    {   "id": 1,
+        "name": "John Smith",
+        "location": "New York",
+        "specialty": "Cardiology",
+        "image": "/src/assets/images/DC.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "location": "Los Angeles",
+        "specialty": "Dermatology",
+        "image": "/src/assets/images/DC.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "location": "Chicago",
+        "specialty": "Orthopedics",
+        "image":  "/src/assets/images/DC.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "location": "Houston",
+        "specialty": "Dermatology",
+        "image":  "/src/assets/images/DC.jpg"
+    }
+]

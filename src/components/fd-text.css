@@ -1,0 +1,15 @@
+.fd-text-container .fd-text-content {
+    text-align: center;
+}
+.fd-text-container .fd-text-content h1 {
+    color: var(--font-color);
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.fd-text-container .fd-text-content p {
+    color: var(--font-color);
+    width: 70%;
+    margin: auto;
+}

@@ -1,0 +1,108 @@
+.sub-about-container .content {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    gap: 60px;
+}
+
+@media screen and (max-width: 1099px) {
+    .sub-about-container .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 60px;
+    }
+}
+
+.sub-about-container .content .lift-side img {
+    width: 630px;
+    height: 600px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1300px) {
+    .sub-about-container .content .lift-side img {
+        width: 530px;
+        height: 500px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 1099px) {
+    .sub-about-container .content .lift-side img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+}
+.sub-about-container .content .right-side {
+    padding: 20px;
+}
+
+.sub-about-container .content .right-side h2 {
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--font-color);
+    margin-bottom: 50px;
+    position: relative;
+}
+@media screen and (max-width: 1300px) {
+    .sub-about-container .content .right-side h2 {
+        font-size: 34px;
+        font-weight: 500;
+        color: var(--font-color);
+        margin-bottom: 50px;
+        position: relative;
+    }
+}
+.sub-about-container .content .right-side h2::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: -3px;
+    transform: translateX(-50%  );
+    height: 5%;
+    border-right: 60px solid #2dafa44e;
+}
+
+.sub-about-container .content .right-side ul {
+    list-style: none;
+    padding: 0 20px;
+}
+.sub-about-container .content .right-side ul li {
+    margin-bottom: 20px;
+    position: relative;
+}
+.sub-about-container .content .right-side ul li::before {
+    content: '';
+    position: absolute;
+    left: -16px;
+    bottom: 0;
+    transform: translateX(-50%  );
+    height: 100%;
+    border-right: 3px solid #2DAFA4;
+}
+.sub-about-container .content .right-side ul li .icon {
+    color: rgba(0, 0, 0, 0.538);
+    font-size: 19px;
+}
+.sub-about-container .content .right-side ul li p {
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.538);
+    padding-left: 10px;
+    text-align: justify;
+}
+@media screen and (max-width: 1300px) {
+    .sub-about-container .content .right-side ul li p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.538);
+        padding-left: 10px;
+        text-align: justify;
+    }
+}
+
+.sub-about-container .content .right-side a {
+    text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+    width: 200px;
+}

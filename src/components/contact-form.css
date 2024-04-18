@@ -1,0 +1,155 @@
+.contact-container .contact-content {
+    padding: 0 30px;
+    display: flex;
+}
+.contact-container .contact-content .left-side {
+    width: 35%;
+}
+.contact-container .contact-content .left-side .row {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.contact-container .contact-content .left-side .row .c-icon {
+    min-width: 60px;
+    height: 60px;
+    background-image: linear-gradient(-180deg, #24464d 0%, #53acbe  100%);
+    box-shadow: inset 0 -2px 0 rgba(255, 124, 122, 0.1), inset 0 0 0 1px rgba(255, 124, 122, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contact-container .contact-content .left-side .row .contact-icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+.contact-container .contact-content .left-side .row .row-content h2 {
+    color: var(--font-color);
+    padding-bottom: 5px;
+}
+
+.contact-container .contact-content .left-side .row .row-content p {
+    color: #6a6a6a9f;
+}
+
+.contact-container .contact-content .right-side {
+    width: 65%;
+}
+.contact-container .contact-content .right-side form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-container .contact-content .right-side form input {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #6a6a6a;
+    padding-left: 10px;
+    border: 1.7px solid #6a6a6a69;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.contact-container .contact-content .right-side form input:focus {
+    outline: none;
+}
+.contact-container .contact-content .right-side form textarea {
+    min-width: 100%;
+    min-height: 100px;
+    font-size: 20px;
+    padding: 10px;
+    color: #6a6a6a;
+    border: 1.7px solid #6a6a6a69;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.contact-container .contact-content .right-side form textarea::placeholder {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #6a6a6a94;
+}
+
+.contact-container .contact-content .right-side form textarea:focus {
+    outline: none;
+}
+.contact-container .contact-content .right-side form input::placeholder {
+    font-size: 20px;
+    color: #6a6a6a94;
+}
+.contact-container .contact-content .right-side form .field-row-one {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.contact-container .contact-content .right-side form .field-row-one div {
+    width: 50%;
+}
+.contact-container .contact-content .right-side form .field-row-one div input {
+    width: 100%;
+}
+
+.contact-container .contact-content .right-side form button {
+    align-self: center;
+    width: 300px;
+    padding: 15px 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-image: linear-gradient(-180deg, #24464d 0%, #53acbe  100%);
+    box-shadow: inset 0 -2px 0 rgba(255, 124, 122, 0.1), inset 0 0 0 1px rgba(255, 124, 122, 0.1);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+@media (max-width: 992px) {
+    .contact-container .contact-content {
+        flex-direction: column;
+    }
+    .contact-container .contact-content .right-side {
+        width: 100%;
+    }
+    .contact-container .contact-content .left-side {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .contact-container .contact-content .left-side .row .c-icon {
+        min-width: 50px;
+        height: 50px;
+    }
+    .contact-container .contact-content .left-side .row .contact-icon {
+        font-size: 25px;
+    }
+    .contact-container .contact-content .left-side .row .row-content h2 {
+        font-size: 20px;
+    }
+    
+    .contact-container .contact-content .left-side .row .row-content p {
+        font-size: 12px;
+    }
+}

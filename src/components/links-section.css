@@ -1,0 +1,89 @@
+/* .links-container {
+    margin-top: 40px;
+} */
+.links-container .content {
+    display: flex;
+    gap: 100px;
+    padding: 0 30px;
+    align-items: center;
+    height: 549px;
+}
+
+@media screen and (max-width: 1300px) {
+    .links-container .content  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.links-container .content .left-content {
+    position: relative;
+    width: 54%;
+}
+
+@media screen and (max-width: 1300px) {
+    .links-container .content .left-content {
+        display: none;
+    }
+}
+
+.links-container .content .left-content img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-16%, -50%);
+    -webkit-transform: translate(-16%, -50%);
+    -moz-transform: translate(-16%, -50%);
+    -ms-transform: translate(-16%, -50%);
+    -o-transform: translate(-16%, -50%);
+}
+.links-container .content .right-content {
+    padding-top: 70px ;
+}
+
+.links-container .content .right-content .link {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.links-container .content .right-content .link:hover {
+    background: rgb(45,175,164);
+    background: linear-gradient(90deg, rgba(45,175,164,1) 0%, rgba(113,185,204,1) 50%, rgba(45,175,164,1) 100%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.links-container .content .right-content .link::after {
+    content: '';
+    position: absolute;
+    right: -25px;
+    transform: translateX(-50%);
+    height: 100%;
+    border-right: 3px solid #2DAFA4;
+}
+
+.links-container .content .right-content .link img {
+    width: 79px;
+    height: 76px;
+}
+.links-container .content .right-content .link:hover img {
+    color: #fff;
+}
+.links-container .content .right-content .link p {
+    font-size: 22px;
+    font-weight: 300;
+}

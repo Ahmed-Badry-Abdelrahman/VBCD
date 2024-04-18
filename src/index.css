@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --primary-color: #2490EB;
+  --nav-color: #90CAF9;
+  --hover-color: #4169a1;
+  --font-color: #6A6A6A;
+  --read-more-btn-color: #455A64;
+  --appointment-btn-color: #FF7979;
+  --footer-color: #13232F;
+} 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+@media (max-width: 992px) {
+    html {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 12px !important;
+    }
+}
+
+.section-margin-bottom {
+    margin-bottom: 80px;
+}
