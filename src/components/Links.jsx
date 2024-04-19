@@ -5,6 +5,7 @@ import LinksImg1 from '../assets/images/link-1.png'
 import LinksImg2 from '../assets/images/link-2.png'
 import LinksImg3 from '../assets/images/link-3.png'
 import './links-section.css'
+import { NavLink } from 'react-router-dom'
 function Links() {
 
   const ref = useRef(null)
@@ -39,9 +40,11 @@ function Links() {
             transition={{ duration: .7, delay: 0.25 }}
           >
             <img src={LinksImg1} alt="link-img-1" />
-            <p>Explore the experiences of other individuals facing similar journeys.</p>
+            <NavLink to="/stories">
+              <p>Explore the experiences of other individuals facing similar journeys.</p>
+            </NavLink>
           </motion.div>
-          <motion.div 
+          <motion.div
             className="link"
             ref={ref}
             variants={{
@@ -51,11 +54,13 @@ function Links() {
             initial="hidden"
             animate={mainControls}
             transition={{ duration: .7, delay: 0.4 }}
-            >
+          >
             <img src={LinksImg2} alt="link-img-2" />
-            <p>Let&apos;s check the rumors and check whether she has breast cancer or not.</p>
+            <NavLink to="/Up-rumor">
+              <p>Let&apos;s check the rumors and check whether she has breast cancer or not.</p>
+            </NavLink>
           </motion.div>
-          <motion.div 
+          <motion.div
             className="link"
             ref={ref}
             variants={{
@@ -65,9 +70,11 @@ function Links() {
             initial="hidden"
             animate={mainControls}
             transition={{ duration: .7, delay: 0.55 }}
-            >
+          >
             <img src={LinksImg3} alt="link-img-3" />
-            <p>Let&apos;s learn about breast cancer and gain some experience.</p>
+            <NavLink to="/Overview">
+              <p>Let&apos;s learn about breast cancer and gain some experience.</p>
+            </NavLink>
           </motion.div>
         </div>
       </div>

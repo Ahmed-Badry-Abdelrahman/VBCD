@@ -87,3 +87,7 @@
     font-size: 22px;
     font-weight: 300;
 }
+
+.links-container .content .right-content .link a {
+    color: black;
+}

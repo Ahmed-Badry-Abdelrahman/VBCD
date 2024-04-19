@@ -34,7 +34,7 @@ function SDoctorCard(props) {
                 <p>{props.location}</p>
                 </div>
                 {/* Use a function to handle the click event */}
-                <Link to={`/DoctorInformation/${props.id}`}  target="_blank" className="appointment-link">
+                <Link to={`/doctor-information/${props.id}`}  target="_blank" className="appointment-link">
                     <span>Request an </span>Appointment
                 </Link>
             </div>

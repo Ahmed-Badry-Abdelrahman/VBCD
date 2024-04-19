@@ -40,7 +40,7 @@ function Header() {
                             </ul>
                         </nav>
                         <div className='sign-up'>
-                            <NavLink to="/profilePage">
+                            <NavLink to="/profile">
                                 <img src={profileImg} alt='profile-img' />
                             </NavLink>
                             <hr />
@@ -54,7 +54,7 @@ function Header() {
                             <li><NavLink to="/overview">Overview</NavLink></li>
                             <li><NavLink to="/find-a-doctor">Find a Doctor</NavLink></li>
                             <li><NavLink to="/up-rumor">Up Rumor</NavLink></li>
-                            <li><NavLink to="/PatientVisitorDS">Patient & Visitor</NavLink></li>
+                            <li><NavLink to="/patient-visitor-ds">Patient & Visitor</NavLink></li>
                             <li><NavLink to="/xray-results">Store</NavLink></li>
                             <li><NavLink to="/stories">Stories</NavLink></li>
                         </ul>

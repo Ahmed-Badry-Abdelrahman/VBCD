@@ -20,7 +20,7 @@ function PatientInfo() {
                             <p> Important information and questions you need to know before your appointment with your doctor to get the most benefit and reserve your life. </p>
                         </div>
                         <div className='link box'>
-                            <Link to='/AskDoctor'> Questions to ask your doctor </Link>
+                            <Link to='/ask-doctor'> Questions to ask your doctor </Link>
                         </div>
                     </div>
                 </div>

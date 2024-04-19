@@ -3,6 +3,7 @@ import Loading from '../components/Loading'
 import './question.css';
 
 function QuestionPage() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     const [questions, setQuestions] = useState([]);
     const [loading, setLoading] = useState(true);
     const [selectedGroupIndex, setSelectedGroupIndex] = useState(null);
