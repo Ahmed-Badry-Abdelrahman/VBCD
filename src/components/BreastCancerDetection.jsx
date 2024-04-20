@@ -28,7 +28,6 @@ const BreastCancerDetection = () => {
                     });
                     const data = await response.json();
                     const newResult = data.result;
-                    setPreviousResults('swdwwada')
                     setPreviousResults(prevResults => [...prevResults, newResult]);
                     setResult(newResult);
                 } catch (error) {

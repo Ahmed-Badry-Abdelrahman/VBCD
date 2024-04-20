@@ -1,0 +1,220 @@
+[
+    {
+        "title": "1. Questions about mammography",
+        "questions": [
+            {
+                "introduction": "Here are questions for the referring doctor, and it is also preferable for women who have had this examination. You should check whether the mammography institute to which you have been directed is under the supervision and control of the Ministry of Health."
+            },
+            {
+                "content": "How is a mammogram performed? Is it painful?"
+            },
+            {
+                "content": "If you are still of fertile age, ask: On what days between one menstrual cycle is it preferable to get tested? Does the mammography device meet all modern quality control standards?"
+            },
+            {
+                "content": "Who will analyze the mammogram? Is he an x-ray doctor or mammogram coder?"
+            },
+            {
+                "content": "What does a mammogram show? Does it provide accurate data about cancer incidence or not?"
+            },
+            {
+                "content": "Do I need to have a breast ultrasound?"
+            },
+            {
+                "content": "How long does it take to get mammogram results? To whom is it delivered? Make sure you receive a copy of the results as well."
+            },
+            {
+                "content": "What should I do if my mammogram results indicate a problem?"
+            }
+        ]
+    },
+    {
+        "title": "2. Questions about the biopsy procedure",
+        "questions": [
+            {
+                "introduction": "What is the purpose of the biopsy?"
+            },
+            {
+                "content": "How reliable is my biopsy?"
+            },
+            {
+                "content": "Will a surgical biopsy eliminate all of the tumor?"
+            },
+            {
+                "content": "Does a scar remain after the biopsy?"
+            },
+            {
+                "content": "How long after the biopsy should I come in for review? Are the test results obtained until then?"
+            },
+            {
+                "content": "What biopsy answer did you receive?"
+            },
+            {
+                "content": "Do I need to carry out further tests to find out if the disease has spread to other organs, such as: the liver, lung, or bones?"
+            }
+        ]
+    },
+    {
+        "title": "3.Questions for the doctor about breast cancer treatment",
+        "questions": [
+            {
+                "introduction": "It is important to consult an oncologist in addition to a surgeon before preparing a treatment plan and ask the following questions:"
+            },
+            {
+                "content": "What type of cancer do I have?"
+            },
+            {
+                "content": "At what stage did my disease become? What is the meaning of this stage?"
+            },
+            {
+                "content": "Is there an answer to testing the estrogen and progesterone receptors? What does that mean for me?"
+            }
+        ]
+    },
+    {
+        "title": "4.Questions for the doctor about mastectomy surgery ",
+        "questions": [
+            {
+                "introduction": "It includes the following:"
+            },
+            {
+                "content": "What type of surgery do you recommend I have? And why?"
+            },
+            {
+                "content": "Is it permissible in my case to perform breast conservation surgery or partial mastectomy?"
+            },
+            {
+                "content": "Do you think a total mastectomy should be performed?"
+            }
+        ]
+    },
+    {
+        "title": "5.Questions for the doctor about recovery from the operation and follow-up treatment",
+        "questions": [
+            {
+                "introduction": "Questions for the surgeon after completing a mastectomy:"
+            },
+            {
+                "content": "What side effects should I expect after the procedure?"
+            },
+            {
+                "content": "How will I feel after the operation? After how long can I return to my normal life?"
+            },
+            {
+                "content": "When am I supposed to return for a routine review visit after the procedure?"
+            },
+            {
+                "content": "In which cases should you seek medical treatment immediately or advance the appointment for a review?"
+            },
+            {
+                "content": "Will I need to receive additional treatment after radiotherapy, chemotherapy, and hormone therapy?"
+            },
+            {
+                "content": "When should I go to the oncologist?"
+            }
+        ]
+    },
+    {
+        "title": "6.Questions for the doctor about chemotherapy",
+        "questions": [
+            {
+                "introduction": "Below is a set of questions for the doctor about breast cancer and chemotherapy:"
+            },
+            {
+                "content": "What is chemotherapy?"
+            },
+            {
+                "content": "Why is chemotherapy necessary in my case?"
+            },
+            {
+                "content": "Are there any permanent effects of this treatment (cessation of menstruation or heart problems)? "
+            },
+            {
+                "content": "Any side effects that I should inform the doctor immediately? "
+            },
+            {
+                "content": "Does chemotherapy cause hair loss?"
+            }
+        ]
+    },
+    {
+        "title": "7.Questions for the doctor about radiation therapy",
+        "questions": [
+            {
+                "introduction": "Below is a set of questions for the oncologist about radiation therapy:"
+            },
+            {
+                "content": "What is radiotherapy? Why should I receive this treatment? "
+            },
+            {
+                "content": "What are the side effects of radiotherapy? How can it be mitigated?"
+            },
+            {
+                "content": "How long does a full series of treatments take? How long does each treatment session take? "
+            },
+            {
+                "content": "Are there any risks in this treatment?"
+            }
+        ]
+    },
+    {
+        "title": "8.Questions for the doctor about hormone therapy",
+        "questions": [
+            {
+                "introduction": "Below is a set of questions for the oncologist about hormone therapy:"
+            },
+            {
+                "content": "For what reason was hormonal treatment suggested to me?"
+            },
+            {
+                "content": "Which hormones should I receive?"
+            },
+            {
+                "content": "In what form and at what frequency will treatment be provided?"
+            },
+            {
+                "content": "How will hormone therapy help me?"
+            },
+            {
+                "content": "What side effects, short or long term, may occur with this treatment?"
+            }
+        ]
+    },
+    {
+        "title": "9.Questions for the doctor about breast reconstruction and reconstruction",
+        "questions": [
+            {
+                "introduction": "During the first meeting, ask the doctor to give you a booklet or brochure about the breast reconstruction process and a consent form. Read it carefully and comfortably at home. It is preferable to do this in the presence of a partner, to make it easier for you to make the decisions that are appropriate for you. Also ask to see photos of breast reconstruction, talk to women who have had breast reconstruction,and ask the doctor questions about breast cancer and breast reconstruction, such as:"
+            },
+            {
+                "content": "What methods or methods are available for breast reconstruction (immediately after mastectomy, or after a period of time)?"
+            },
+            {
+                "content": "Which method do you think is right for me? And why?"
+            },
+            {
+                "content": "How long will I stay in the hospital after the operation? How long is recovery expected to take?"
+            }
+        ]
+    },
+    {
+        "title": "10.General recommendations when going to the doctor",
+        "questions": [
+            {
+                "introduction": "Below is a set of general recommendations that may help you as much as possible when heading to the treating physician:"
+            },
+            {
+                "content": "Prepare yourself as much as possible by gathering medical information about the disease."
+            },
+            {
+                "content": "When you come to meet the doctor, have someone close to you accompany you, and it is always better to have someone who can provide you with support, listen to you carefully, and think about asking more questions."
+            },
+            {
+                "content": "Record your doctor's answers so you can remember them, think about them, and understand them later. When it comes to frequent visits to the doctor, write down the changes that have occurred since the last visit."
+            },
+            {
+                "content": "The doctor should know that you insist on taking an active role in making decisions about your health."
+            }
+        ]
+    }
+]
