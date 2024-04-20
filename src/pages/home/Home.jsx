@@ -12,6 +12,7 @@ import './home.css';
 
 
 function Home() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     return (
         <div className='home-container'>
             <Header/>

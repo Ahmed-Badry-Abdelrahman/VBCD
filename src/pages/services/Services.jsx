@@ -31,6 +31,7 @@ const AnimatedComponent = ({ children }) => {
 };
 
 function Services() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
   return (
     <div>
       <Header />
@@ -43,7 +44,7 @@ function Services() {
           title="Up Rumors"
           description="Explore the experiences of other individuals facing similar journeys.Explore the experiences of other individuals facing similar journeys.Explore the experiences of other individuals facing similar journeys."
           btnText="Up Rumors"
-          link="/Up Rumors"
+          link="/up-rumor"
         />
       </AnimatedComponent>
 
@@ -63,7 +64,7 @@ function Services() {
           title="Appointments"
           description="Explore the experiences of other individuals facing similar journeys.Explore the experiences of other individuals facing similar journeys.Explore the experiences of other individuals facing similar journeys."
           btnText="Appointments"
-          link="/PatientVisitor"
+          link="/patient-visitor-ds"
         />
       </AnimatedComponent>
 

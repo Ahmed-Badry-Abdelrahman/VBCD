@@ -13,7 +13,7 @@ import Store from './pages/Store/Store';
 import Stories from './pages/StoryList/Stories';
 import Details from './pages/story-details/Details';
 import ProfilePage from './pages/profile/Profile_page';
-
+import AiModel from './pages/Up-rumor/up-rumor'
 const App = () => {
     return (
         <Router>
@@ -32,6 +32,7 @@ const App = () => {
                     <Route path="/stories" element={<Stories />} />
                     <Route path="/story/:id" element={<Details />} />
                     <Route path="/profile" element={<ProfilePage />} />
+                    <Route path='/up-rumor' element={<AiModel />}/>   
                     <Route path="*" element={<ErrorPage />} />
                 </Routes>
             </main>

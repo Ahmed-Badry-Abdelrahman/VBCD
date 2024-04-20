@@ -7,6 +7,7 @@ import SetAvailability from '../../components/SetAvailability'
 import patientVisitor from '/src/assets/images/patient-visitor-.jpg'
 import Footer from '../../components/Footer'
 function PatientVisitorDS() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     return (
         <div>
             <Header />

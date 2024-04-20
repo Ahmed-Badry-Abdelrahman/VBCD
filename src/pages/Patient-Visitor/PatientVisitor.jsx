@@ -8,6 +8,7 @@ import PatientStoriesSlider from '../../components/patientSliderStoreys'
 import patientVisitor from '/src/assets/images/patient-visitor-.jpg'
 import Footer from '../../components/Footer'
 function PatientVisitor() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     return (
         <div>
             <Header />

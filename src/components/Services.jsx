@@ -31,8 +31,8 @@ function Services() {
                 transition={{ duration: .5, delay: 0.35 }}
             >
                 <ServiceCard image={findADoctorCard1} title="Our Doctor" description="Search by name, specialty, location and more." service="Find a doctor" link="/find-a-doctor" />
-                <ServiceCard image={Appointments} title="Appointments" description="Get the in person or virtual care you need in any time." service="Appointments" link="/PatientVisitor" />
-                <ServiceCard image={UpRumor} title="Up Rumors" description="Raise the rumor to verify whether it is true or not." service="Up Rumors" link="/Up Rumors" />
+                <ServiceCard image={Appointments} title="Appointments" description="Get the in person or virtual care you need in any time." service="Appointments" link="/patient-visitor-ds" />
+                <ServiceCard image={UpRumor} title="Up Rumors" description="Raise the rumor to verify whether it is true or not." service="Up Rumors" link="/up-rumor" />
             </motion.div>
         </div>
     )

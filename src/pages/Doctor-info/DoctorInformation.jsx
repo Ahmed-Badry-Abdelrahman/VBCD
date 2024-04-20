@@ -5,6 +5,7 @@ import BookingForm from '../../components/BookingForm'
 import Footer from '../../components/Footer'
 import  './doctor-information.css'
 function DoctorInformation() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     return (
         <div>
             <Header />

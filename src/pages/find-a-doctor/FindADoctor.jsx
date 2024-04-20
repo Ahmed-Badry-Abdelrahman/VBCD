@@ -9,6 +9,7 @@ import Footer from '../../components/Footer';
 import  './find-a-doctor.css'
 
 function FindADoctor() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     return (
         <div>
             <Header />

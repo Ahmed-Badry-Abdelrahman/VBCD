@@ -1,5 +1,5 @@
 import Header from '../../components/Header';
-import Profile from '../../components/Profile';
+import BreastCancerDetection from '../../components/BreastCancerDetection';
 import Footer from '../../components/Footer'
 
 function ProfilePage() {
@@ -7,7 +7,7 @@ function ProfilePage() {
     return (
         <div>
             <Header />
-            <Profile />
+            <BreastCancerDetection />
             <Footer />
         </div>
     )

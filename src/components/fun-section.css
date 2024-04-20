@@ -162,5 +162,9 @@
     height: 5px;
 }
 
+.fun-container .content .down-side .service a {
+    text-decoration: none;
+    color: black;
+}
 /* ================================== */
 

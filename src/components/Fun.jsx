@@ -1,4 +1,4 @@
-import  { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import icon1 from '../assets/images/icon-1.png'
 import iconMove1 from '../assets/images/move-icon 2.png'
@@ -7,6 +7,7 @@ import iconMove2 from '../assets/images/move-icon 2.png'
 import icon3 from '../assets/images/icon-3.png'
 
 import './fun-section.css';
+import { NavLink } from 'react-router-dom'
 
 function Fun() {
 
@@ -47,15 +48,19 @@ function Fun() {
                         <img src={iconMove1} alt='arrow-img' />
                     </div>
                     <div className='service'>
-                        <img src={icon2} alt='icon-2' />
-                        <p>Choose Doctor</p>
+                        <NavLink to='/find-a-doctor'>
+                            <img src={icon2} alt='icon-2' />
+                            <p>Choose Doctor</p>
+                        </NavLink>
                     </div>
                     <div className='arrow'>
                         <img src={iconMove2} alt='arrow-img' />
                     </div>
                     <div className='service'>
-                        <img src={icon3} alt='icon-3' />
-                        <p>Admission Now</p>
+                        <NavLink to='/find-a-doctor'>
+                            <img src={icon3} alt='icon-3' />
+                            <p>Admission</p>
+                        </NavLink>
                     </div>
                 </div>
             </motion.div>

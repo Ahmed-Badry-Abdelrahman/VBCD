@@ -8,6 +8,7 @@ import aboutPage1 from '/src/assets/images/about-page1.png'
 import './about-page.css';
 
 function AboutPage() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
   return (
     <div>
       <Header />
