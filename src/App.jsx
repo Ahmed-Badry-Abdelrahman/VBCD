@@ -13,12 +13,16 @@ import Store from './pages/Store/Store';
 import Stories from './pages/StoryList/Stories';
 import Details from './pages/story-details/Details';
 import ProfilePage from './pages/profile/Profile_page';
-import AiModel from './pages/Up-rumor/up-rumor'
+import AiModel from './pages/Up-rumor/up-rumor';
+import LoginPage from './pages/login/Login_Page';
 const App = () => {
     return (
         <Router>
             <main>
                 <Routes>
+                    <Route path="/login" element={<LoginPage />} />
+
+
                     <Route path="/" element={<Home />} />
                     <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<AboutPage />} />

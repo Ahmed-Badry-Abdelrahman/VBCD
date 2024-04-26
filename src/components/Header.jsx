@@ -44,7 +44,7 @@ function Header() {
                                 <img src={profileImg} alt='profile-img' />
                             </NavLink>
                             <hr />
-                            <button>Sign Up</button>
+                            <NavLink to="/login">Login</NavLink>
                         </div>
                     </div>
                 </div>
