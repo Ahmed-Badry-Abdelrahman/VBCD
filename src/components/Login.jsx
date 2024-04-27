@@ -24,7 +24,7 @@ const LoginForm = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('/api/login', {
+            const response = await fetch('https://reqres.in/api/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -38,6 +38,10 @@ const LoginForm = () => {
                     // Login successful
                     console.log('Logged in successfully');
                     console.log('Role:', role);
+                    
+                    // Save the JWT token to local storage
+                    localStorage.setItem('jwtToken', data.token);
+
                     // Redirect user to dashboard or desired page
                     // Redirect logic here...
                 } else {
@@ -54,6 +58,46 @@ const LoginForm = () => {
         }
     };
 
+    // ##################################################################################  //
+    //                                         TEST                                        //
+    // ##################################################################################  //
+
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    
+    //     try {
+    //         const response = await fetch('https://reqres.in/api/login', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json',
+    //             },
+    //             body: JSON.stringify({ email, password, role }),
+    //         });
+    
+    //         if (response.ok) {
+    //             // Login successful
+    //             const data = await response.json();
+    //             console.log('Logged in successfully');
+    //             console.log('Role:', role);
+    //             console.log('Token:', data.token);
+    //             // Save the JWT token to local storage
+    //             localStorage.setItem('jwtToken', data.token);
+    
+    //             // Redirect user to dashboard or desired page
+    //             // Redirect logic here...
+    //         } else {
+    //             // Login failed
+    //             setError('Login failed. Please check your credentials.');
+    //         }
+    //     } catch (error) {
+    //         console.error('Error during login:', error);
+    //         setError('An unexpected error occurred. Please try again later.');
+    //     }
+    // };
+    
+    // ##################################################################################  //
+    //                                         TEST                                        //
+    // ##################################################################################  //
 
 
     return (
@@ -127,7 +171,7 @@ const LoginForm = () => {
                             <button type="submit">Login</button>
                         </form>
                         <div className='forgot-pass'>
-                            <Link to="/forgot-password">Forgot Password ?</Link>
+                            <Link to="/rest-password">Forgot Password ?</Link>
                         </div>
                     </div>
                 </div>
