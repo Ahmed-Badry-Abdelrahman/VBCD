@@ -133,13 +133,21 @@
     margin: 10px 0;
     font-size: 16px;
 }
-
-.forgot-pass {
-    text-align: end;
-    margin-top: 20px;
+.sign-up-now {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.sign-up-now a {
     font-size: 15px;
 }
-
+.forgot-pass {
+    text-align: start;
+    font-size: 12px;
+    padding-left: 8px;
+}
+.forgot-pass a {
+    color: black;
+}
 .log-bk {
     position: relative;
 }

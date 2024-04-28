@@ -15,7 +15,10 @@ import Details from './pages/story-details/Details';
 import ProfilePage from './pages/profile/Profile_page';
 import AiModel from './pages/Up-rumor/up-rumor';
 import LoginPage from './pages/login/Login_Page';
-import RestPasswordPage from './pages/Rest-Password/RestPasswordPage'
+import RestPasswordPage from './pages/Rest-Password/RestPasswordPage';
+import RegisterPage from './pages/Register-page/RegisterPage';
+import RegisterAsDoctorPage from './pages/Register-as-doctor/RegisterAsDoctorPage';
+
 const App = () => {
     return (
         <Router>
@@ -23,6 +26,8 @@ const App = () => {
                 <Routes>
                     <Route path="/login" element={<LoginPage />} />
                     <Route path='/rest-password' element={<RestPasswordPage />}/>
+                    <Route path='/create-user' element={<RegisterPage />}/>
+                    <Route path='/create-doctor' element={<RegisterAsDoctorPage />}/>
 
                     <Route path="/" element={<Home />} />
                     <Route path="/home" element={<Home />} />

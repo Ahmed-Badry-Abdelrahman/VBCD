@@ -38,7 +38,7 @@ const LoginForm = () => {
                     // Login successful
                     console.log('Logged in successfully');
                     console.log('Role:', role);
-                    
+
                     // Save the JWT token to local storage
                     localStorage.setItem('jwtToken', data.token);
 
@@ -64,7 +64,7 @@ const LoginForm = () => {
 
     // const handleSubmit = async (e) => {
     //     e.preventDefault();
-    
+
     //     try {
     //         const response = await fetch('https://reqres.in/api/login', {
     //             method: 'POST',
@@ -73,7 +73,7 @@ const LoginForm = () => {
     //             },
     //             body: JSON.stringify({ email, password, role }),
     //         });
-    
+
     //         if (response.ok) {
     //             // Login successful
     //             const data = await response.json();
@@ -82,7 +82,7 @@ const LoginForm = () => {
     //             console.log('Token:', data.token);
     //             // Save the JWT token to local storage
     //             localStorage.setItem('jwtToken', data.token);
-    
+
     //             // Redirect user to dashboard or desired page
     //             // Redirect logic here...
     //         } else {
@@ -94,7 +94,7 @@ const LoginForm = () => {
     //         setError('An unexpected error occurred. Please try again later.');
     //     }
     // };
-    
+
     // ##################################################################################  //
     //                                         TEST                                        //
     // ##################################################################################  //
@@ -135,6 +135,9 @@ const LoginForm = () => {
                                     placeholder='Password'
                                 />
                             </div>
+                            <div className='forgot-pass'>
+                                <Link to="/rest-password">Forgot Password ?</Link>
+                            </div>
                             <div className='roles-container'>
                                 <div>
                                     <input
@@ -170,8 +173,8 @@ const LoginForm = () => {
                             {error && <p className='form__error'>{error}</p>}
                             <button type="submit">Login</button>
                         </form>
-                        <div className='forgot-pass'>
-                            <Link to="/rest-password">Forgot Password ?</Link>
+                        <div className='sign-up-now'>
+                            <p>Don&apos;t have an account? <Link to="/create-user"> Sign up now</Link></p>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,303 @@
+
+.reg-container {
+    height: 100vh;
+}
+
+.reg-container .reg-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100%;
+    overflow: auto;
+}
+
+.reg-container .reg-content .reg-bk {
+    width: 40%;
+}
+
+.reg-container .reg-content .reg-frm {
+    padding: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.reg-container .reg-content .reg-frm {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 168, 247, 0.355);
+}
+
+.reg-container .reg-content .reg-frm .form-group {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:  #fff;
+}
+.reg-container .reg-content .reg-frm .form-group .reg-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #5e9ca0;
+}
+
+.reg-container .reg-content .reg-frm form {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.reg-container .reg-content .reg-frm form div {
+    width: calc(50% - 20px);
+}
+.reg-container .reg-content .reg-frm form input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;  
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.reg-container .reg-content .reg-frm form input[type="email"]::placeholder,
+.reg-container .reg-content .reg-frm form input[type="password"]::placeholder {
+    color: #a9a9a9;
+}
+
+.reg-container .reg-content .reg-frm form .roles-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    margin-top: 10px;
+}
+.reg-container .reg-content .reg-frm form .radio-btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reg-container .reg-content .reg-frm form .radio-btm div {
+    display: flex;
+    gap: 8px;
+}
+.reg-container .reg-content .reg-frm form .radio-btm div label {
+    font-size: 20px;
+}
+.reg-container .reg-content .reg-frm form .radio-btm div input[type="radio"] {
+    /* transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    -o-transform: scale(0.4); */
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+.reg-container .reg-content .reg-frm form button {
+    min-width: 230px;
+    flex-grow: 1;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #5ba8f5;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+} 
+.reg-container .reg-content .reg-frm form button:hover {
+    background-color: #338ae0;
+}
+.reg-as-doctor {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.reg-container .reg-content .reg-frm form .form__error {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.149);
+    border: 2px solid rgba(255, 0, 0, 0.578);
+    padding: 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+
+
+.reg-bk {
+    position: relative;
+}
+
+.reg-bk img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+
+.reg-bk img.show {
+    opacity: 1;
+}
+
+.weak-pass {
+    font-size: 12px;
+    color: red;
+}
+
+.strong-pass {
+    font-size: 12px;
+    color: green;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.reg-container .reg-content .reg-frm form .error-message {
+    font-size: 12px;
+    color: red;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.sn-up-success-message {
+    font-size: 14px;
+    color: rgb(53, 198, 46);
+    text-align: center;
+    border: 2px solid rgba(0, 128, 0, 0.403);
+    background-color: rgba(10, 252, 10, 0.127);
+    padding: 5px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.sn-up-error-message {
+    font-size: 14px;
+    color: rgb(198, 46, 46);
+    text-align: center;
+    border: 2px solid rgba(128, 0, 0, 0.403);
+    background-color: rgba(252, 10, 10, 0.127);
+    padding: 5px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+@media (max-width: 1100px) {
+    .reg-container .reg-content .reg-bk {
+        display: none;
+    }
+
+    .reg-container .reg-content .reg-frm {
+        width: 80%;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .reg-container .reg-content .reg-frm .form-group {
+        width: 70%;
+    }
+}
+@media (max-width: 900px) {
+    .reg-container .reg-content .reg-frm {
+        width: 80%;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 30%;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .reg-container .reg-content .reg-frm .form-group {
+        width: 80%;
+    }
+}
+@media (max-width: 730px) {
+    .reg-container .reg-content .reg-frm {
+        width: 95%;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .reg-container .reg-content .reg-frm .form-group {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .reg-container .reg-content .reg-frm {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius: 0;
+    }
+
+    .reg-container .reg-content .reg-frm .form-group {
+        width: 95%;
+    }
+
+    .reg-container .reg-content .reg-frm form .radio-btm div label {
+        font-size: 17px;
+    }
+
+    .reg-container .reg-content .reg-frm form .radio-btm div input[type="radio"] {
+        height: 20px;
+        width: 20px;
+    }
+}
