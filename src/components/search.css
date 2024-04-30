@@ -42,6 +42,7 @@
     border: none;
     font-size: 19px;
     cursor: pointer;
+    margin: 0;
 }
 
 .search-container .search-content .rustle-container {

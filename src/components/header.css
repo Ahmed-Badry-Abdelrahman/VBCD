@@ -1,6 +1,7 @@
 header {
     display: flex;
     flex-direction: column;
+    
 }
 
 header .header-container .top-header {
@@ -172,7 +173,7 @@ header .header-container .bottom-header nav ul li a {
 header .header-container .drop-menu {
     display: flex;
     position: relative;
-    z-index: 1;
+    z-index: 3000;
 }
 
 header .header-container .drop-menu nav {
@@ -214,7 +215,7 @@ header .header-container .drop-menu button {
     right: 10px;
     top: 10px;
     background-image: linear-gradient(-180deg, #363636 0%, #4f4f4f  100%);
-    z-index: 2;
+    z-index: 2000;
     padding: 10px 15px;
     border: none;
     color: #fff;

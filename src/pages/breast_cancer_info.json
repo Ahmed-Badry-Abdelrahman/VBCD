@@ -1,0 +1,203 @@
+{
+    "overview": {
+        "overview_imaging": "/src/assets/images/breast-cancer.jpg",
+        "what_is_breast_cancer": {
+            "description": "Breast cancer is one of the most common cancers that affects women and people assigned female at birth (AFAB). It happens when cancerous cells in your breasts multiply and become tumors. About 80% of breast cancer cases are invasive, meaning a tumor may spread from your breast to other areas of your body.",
+            "affected_groups": "Breast cancer typically affects women age 50 and older, but it can also affect women and people AFAB who are younger than 50. Men and people assigned male at birth (AMAB) may also develop breast cancer."
+        },
+        "breast_cancer_types": {
+            "common_types": [
+                {
+                    "type": "Invasive (infiltrating) ductal carcinoma (IDC)",
+                    "description": "This cancer starts in your milk ducts and spreads to nearby breast tissue. It’s the most common type of breast cancer in the United States."
+                },
+                {
+                    "type": "Lobular breast cancer",
+                    "description": "This breast cancer starts in the milk-producing glands (lobules) in your breast and often spreads to nearby breast tissue. It’s the second most common breast cancer in the United States."
+                },
+                {
+                    "type": "Ductal carcinoma in situ (DCIS)",
+                    "description": "Like IDC, this breast cancer starts in your milk ducts. The difference is DCIS doesn’t spread beyond your milk ducts."
+                }
+            ],
+            "less_common_types": [
+                {
+                    "type": "Triple-negative breast cancer (TNBC)",
+                    "description": "This invasive cancer is aggressive and spreads more quickly than other breast cancers."
+                },
+                {
+                    "type": "Inflammatory breast cancer (IBC)",
+                    "description": "This rare, fast-growing cancer looks like a rash on your breast. IBC is rare in the United States."
+                },
+                {
+                    "type": "Paget’s disease of the breast",
+                    "description": "This rare cancer affects the skin of your nipple and may look like a rash. Less than 4% of all breast cancers are Paget’s disease of the breast."
+                }
+            ]
+        },
+        "breast_cancer_subtypes": {
+            "description": "Healthcare providers classify breast cancer subtypes by receptor cell status.",
+            "subtypes": [
+                {
+                    "subtype": "ER-positive (ER+)",
+                    "description": "Breast cancers have estrogen receptors."
+                },
+                {
+                    "subtype": "PR-positive (PR+)",
+                    "description": "Breast cancers have progesterone receptors."
+                },
+                {
+                    "subtype": "HR-positive (HR+)",
+                    "description": "Breast cancers have estrogen and progesterone receptors."
+                },
+                {
+                    "subtype": "HR-negative (HR-)",
+                    "description": "Breast cancers don’t have estrogen or progesterone receptors."
+                },
+                {
+                    "subtype": "HER2-positive (HER2+)",
+                    "description": "Breast cancers have higher than normal levels of the HER2 protein."
+                }
+            ]
+        },
+        "breast_cancer_types_imaging": "/src/assets/images/bcd-type.png"
+    },
+    "symptoms_and_causes": {
+        "symptoms": {
+            "description": "The condition can affect your breasts in different ways. Some breast cancer symptoms are very distinctive. Others may simply seem like areas of your breast that look very different from any other area. Breast cancer may not cause noticeable symptoms either. But when it does, symptoms may include.",
+            "list": [
+                "A change in the size, shape or contour of your breast.",
+                "A mass or lump, which may feel as small as a pea.",
+                "A lump or thickening in or near your breast or in your underarm that persists through your menstrual cycle.",
+                "A change in the look or feel of your skin on your breast or nipple.",
+                "A marble-like hardened area under your skin.",
+                "A blood-stained or clear fluid discharge from your nipple."
+            ]
+        },
+        "causes": {
+            "description": "Experts know breast cancer happens when breast cells mutate and become cancerous cells that divide and multiply to create tumors. They aren’t sure what triggers that change. However, research shows there are several risk factors that may increase your chances of developing breast cancer. These include:",
+            "risk_factors": [
+                "Age: Being 55 or older.",
+                "Sex: Women and people AFAB are much more likely to develop the condition than men and people AMAB.",
+                "Family history: If your parents, siblings, children or other close relatives have breast cancer, you’re at risk of developing the disease.",
+                "Genetics: Up to 15% of people with breast cancer develop the disease because they have inherited genetic mutations. The most common genetic mutations involve the BRCA1 and BRCA2 genes.",
+                "Smoking: Tobacco use has been linked to many different types of cancer, including breast cancer.",
+                "Drinking beverages containing alcohol: Research shows that drinking beverages containing alcohol may increase breast cancer risk.",
+                "Having obesity.",
+                "Radiation exposure: If you’ve had prior radiation therapy — especially to your head, neck or chest — you’re more likely to develop breast cancer.",
+                "Hormone replacement therapy: People who use hormone replacement therapy (HRT) have a higher risk of being diagnosed with the condition."
+            ]
+        },
+        "complications": {
+            "description": "The most significant complication is metastatic breast cancer — breast cancer that spreads to other areas of your body, including your brain, bones, liver and lungs. Studies show about 1 in 3 women and people AFAB who have early-stage cancer later develop metastatic breast cancer."
+        }
+    },
+    "diagnosis_and_tests": {
+        "description": "Healthcare providers may do physical examinations or order mammograms to check for signs of breast cancer. But they do the following tests to diagnose the disease.",
+        "tests": [
+            "Breast ultrasound.",
+            "Breast magnetic resonance imaging (MRI) scan.",
+            "Breast biopsy.",
+            "Immunohistochemistry test to check for hormone receptors.",
+            "Genetic tests to identify mutations that cause breast cancer."
+        ]
+    },
+    "stages_of_breast_cancer": {
+        "description": "Healthcare providers use cancer staging systems to plan treatment. Staging cancer also helps providers set a prognosis, or what you can expect after treatment. Breast cancer staging depends on factors like breast cancer type, tumor size and location, and whether cancer has spread to other areas of your body. Breast cancer stages are:",
+        "stages": [
+            {
+                "stage": "Stage 0",
+                "description": "The disease is noninvasive, meaning it hasn’t spread from your breast ducts to other parts of your breast."
+            },
+            {
+                "stage": "Stage I",
+                "description": "There are cancerous cells in nearby breast tissue."
+            },
+            {
+                "stage": "Stage II",
+                "description": "The cancerous cells have formed a tumor or tumors. The tumor is either smaller than 2 centimeters across and has spread to underarm lymph nodes or larger than 5 centimeters across but hasn’t spread to underarm lymph nodes."
+            },
+            {
+                "stage": "Stage III",
+                "description": "There’s breast cancer in nearby tissue and lymph nodes. Stage III is usually referred to as locally advanced breast cancer."
+            },
+            {
+                "stage": "Stage IV",
+                "description": "Cancer has spread from your breast to areas like your bones, liver, lungs or brain."
+            }
+        ],
+        "stages_imaging":"/src/assets/images/bcd-stag.jpg"
+    },
+    "management_and_treatment": {
+        "description": "Surgery is the primary breast cancer treatment, but healthcare providers may use other treatments.",
+        "treatments": [
+            "Mastectomy.",
+            "Lumpectomy.",
+            "Breast reconstruction.",
+            "Chemotherapy.",
+            "Radiation therapy, including intraoperative radiation therapy (IORT).",
+            "Immunotherapy.",
+            "Hormone therapy, including selective estrogen receptor modulator (SERM) therapy.",
+            "Targeted therapy."
+        ],
+        "side_effects": "Common chemotherapy and radiation therapy side effects include fatigue, nausea and vomiting."
+    },
+    "prevention": {
+        "description": "You may not be able to prevent breast cancer. But you can reduce your risk of developing it.",
+        "risk_reduction_tips": [
+            "Get to and stay at a healthy weight: This is a weight that’s right for you. Ask a healthcare provider for information on setting up healthy weight management.",
+            "Eat a healthy diet: Some studies show a diet that includes vegetables, fruit, calcium-rich dairy foods and lean protein may reduce your risk of breast cancer. Avoiding red meat and processed meat may also reduce your risk.",
+            "Get moving: Studies show that regular physical activity lowers breast cancer risk.",
+            "Avoid beverages containing alcohol: Research shows a link between breast cancer and alcohol. The American Medical Association recommends women and people AFAB limit alcohol to one drink a day.",
+            "Get screened: Mammograms often detect tumors when they’re too small to be felt.",
+            "Do regular self-exams: Examining your breasts regularly helps to maintain breast health and may allow you to find breast cancer tumors."
+        ],
+        "additional_prevention_measures": [
+            "Genetic screening for breast cancer genes.",
+            "Medication that may lower breast cancer risk like tamoxifen, raloxifene or aromatase inhibitors.",
+            "Prophylactic (preventive) mastectomy."
+        ],
+        "prevention_imaging":"/src/assets/images/bcd-reck-reduce.jpeg"
+    },
+    "outlook_and_prognosis": {
+        "survival_rate": "Overall, 91% of people with breast cancer were alive five years after diagnosis.",
+        "outlook": "Right now, more people are being diagnosed with early-stage breast cancer — meaning they’re diagnosed when it’s easier to treat — and fewer people are dying of breast cancer."
+    },
+    "living_with": {
+        "description": "Living with breast cancer may not be easy. You may have days when you feel overwhelmed by your situation. Consider the following suggestions for taking care of yourself as you go through breast cancer diagnosis and treatment:",
+        "self_care_tips": [
+            "Get enough rest: Breast cancer and treatment can be exhausting. Try to remember to rest when you need to, not just when you think you have time.",
+            "Eat well: Treatment may affect your appetite. A diet of fruit, vegetables, lean protein and healthy grains can help you stay strong during treatment.",
+            "Manage your stress: Cancer is stressful. Exercise can help, from regular walks to exercise programs.",
+            "Find support: You’re a breast cancer survivor, starting the day you were diagnosed. Ask your healthcare provider about cancer survivorship programs, which may help you manage some of the challenges that come with living with breast cancer."
+        ],
+        "when_to_seek_medical_attention": {
+            "provider": "Contact your provider if your symptoms seem to be getting worse or if you have new symptoms, like pain or weakness in a different part of your body.",
+            "emergency_room": "You should go to the emergency room if your reaction to cancer treatment is stronger than you expected. For example, you should go to the emergency room if you’re severely dehydrated from constant vomiting."
+        },
+        "questions_to_ask_provider": [
+            "What type of breast cancer do I have?",
+            "What’s the tumor stage, size and grade?",
+            "What’s my estrogen and progesterone receptor status?",
+            "What’s my HER2 status?",
+            "Will I need surgery?",
+            "What are other treatment options?",
+            "Is there a clinical trial available for me?"
+        ]
+    },
+    "additional_common_questions": [
+        {
+            "question": "How long can you have breast cancer without knowing?",
+            "answer": "You can have breast cancer for years before noticing changes in your breasts like a lump. That said, not all lumps or bumps are cancer. Check with a healthcare provider if you have an unusual bump or mass that doesn’t go away after a few days."
+        },
+        {
+            "question": "How fast does breast cancer spread?",
+            "answer": "That depends on several factors, including the type of breast cancer you have, whether it’s hereditary and, the tumor stage and grade."
+        },
+        {
+            "question": "Can men get breast cancer?",
+            "answer": "Yes, men and people AMAB can get breast cancer, but it’s not common."
+        }
+    ],
+    "note_from_cleveland_clinic": "In 2023, 1 in 8 women and people assigned female at birth (AFAB) in the United States will learn they have breast cancer. If you’re among those 1 in 8, there are a few more numbers you may want to consider. Nearly 4 million people in the United States are breast cancer survivors."
+}

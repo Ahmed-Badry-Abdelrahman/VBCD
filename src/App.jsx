@@ -18,6 +18,8 @@ import LoginPage from './pages/login/Login_Page';
 import RestPasswordPage from './pages/Rest-Password/RestPasswordPage';
 import RegisterPage from './pages/Register-page/RegisterPage';
 import RegisterAsDoctorPage from './pages/Register-as-doctor/RegisterAsDoctorPage';
+import Overview from '/src/pages/overview/Overview_page';
+
 
 const App = () => {
     return (
@@ -34,6 +36,8 @@ const App = () => {
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/overview" element={<Overview />} />
+                    
                     <Route path="/find-a-doctor" element={<FindADoctor />} />
                     <Route path="/doctor-information/:id" element={<DoctorInformation />} />
                     <Route path="/ask-doctor" element={<AskDoctor />} />
