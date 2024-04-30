@@ -4,6 +4,7 @@ import { faSquareXmark } from "@fortawesome/free-solid-svg-icons";
 import AdvertisementImg from "../../assets/images/bcd-advertisement.png"
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Loading from '../../components/Loading'
 import './ov-section-one.css';
 
 // eslint-disable-next-line react/prop-types
@@ -38,7 +39,7 @@ function BreastCancerInfo() {
     }, []);
 
     if (!data) {
-        return <div>Loading...</div>;
+        return <Loading />;
     }
 
     const handleClose = () => {
